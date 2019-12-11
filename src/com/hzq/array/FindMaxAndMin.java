@@ -1,4 +1,4 @@
-package com.hzq;
+package com.hzq.array;
 
 import java.util.Arrays;
 
