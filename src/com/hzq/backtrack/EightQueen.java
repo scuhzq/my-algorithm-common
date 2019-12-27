@@ -2,7 +2,7 @@ package com.hzq.backtrack;
 
 /**
  * Created by hzq on 2019-11-29.
- * 不能在同一行、同一列、统一斜线
+ * 不能在同一行、同一列、同一斜线
  */
 public class EightQueen {
 
