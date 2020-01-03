@@ -25,7 +25,7 @@ public class ArrayTargetSum {
 		//2.每次加入候选集当前值后面的数。
 		//3.用start控制搜索的路径。
 		List<List<Integer>> result = new ArrayList<>();
-		List<Integer> nowList = new ArrayList<>();
+		List<Integer> nowList = new ArrayList<>() ;
 		Arrays.sort(candidates);
 		dfs2(candidates, target, 0, result, nowList);
 		print(result);

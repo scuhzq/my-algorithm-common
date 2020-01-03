@@ -6,8 +6,10 @@ package com.hzq.backtrack;
 public class TwoDimArrayFindWord {
 
 	public static void main(String[] args) {
-		char[][] board = {{'A','B','C','E'}, {'S','F','C','S'}, {'A','D','E','E'}};
-		String word = "ABCB";
+//		char[][] board = {{'A','B','C','E'}, {'S','F','C','S'}, {'A','D','E','E'}};
+//		String word = "ABCB";
+		char[][] board = {{'o','a','a','n'},{'e','t','a','e'},{'i','h','k','r'},{'i','f','l','v'}};
+		String word = "eat";
 		System.out.println(new TwoDimArrayFindWord().exist(board, word));
 	}
 
